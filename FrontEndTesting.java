@@ -235,8 +235,7 @@ public class FrontEndTesting {
 		Thread.sleep(10000);
 		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("wfLoading"))));
 		WebElement send = driver.findElement(By.className("sendbutton"));
-	   //lingy was here
-		//i tried, but cannot connect properly yeah...
+	  
 		System.out.println("i'm here");
 		System.out.println(send);
 		WebElement usermsg = driver.findElement(By.id("sendchatarea"));
@@ -362,10 +361,7 @@ public class FrontEndTesting {
 		Thread.sleep(10000);
 		wait.until(ExpectedConditions.invisibilityOf(driver.findElement(By.id("wfLoading"))));
 		WebElement send = driver.findElement(By.className("sendbutton"));
-	    //lingy was here
-	    //student id 1003785 +project pts to lingy ty
-	    //+project pts not written by lingy
-		//i tried, but cannot connect properly yeah...
+	 
 		System.out.println("i'm here");
 		System.out.println(send);
 		WebElement usermsg = driver.findElement(By.id("sendchatarea"));
